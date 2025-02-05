@@ -46,7 +46,7 @@ public class SearchOperations {
 
     public static void main(String[] args) {
         int[] nums = {3, 4, -1, 1};
-        int[] sortedNums = {1, 2, 3, 4, 5, 6, 7, 8, 9};  // Sorted array for binary search
+        int[] sortedNums = {-1,1,3,4};  // Sorted array for binary search
         int target = 6;
 
         // Find first missing positive integer
