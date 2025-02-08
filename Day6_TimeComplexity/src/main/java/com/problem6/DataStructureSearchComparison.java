@@ -68,7 +68,8 @@ public class DataStructureSearchComparison {
             }
 
             int target = random.nextInt(N); // Random target to search
-
+            
+            System.out.println("Array Size: " + N);
             // Measure search times
             double timeArray = searchArray(arr, target);
             double timeHashSet = searchHashSet(hashSet, target);
